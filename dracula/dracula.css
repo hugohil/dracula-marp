@@ -10,6 +10,7 @@
  */
  
 @import url("https://fonts.googleapis.com/css?family=Lato:400,900|IBM+Plex+Sans:400,700");
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 :root {
   --dracula-background: #282a36;
@@ -212,7 +213,7 @@ blockquote {
 blockquote::after, blockquote::before {
   content: "“";
   display: block;
-  font-family: "Times New Roman", serif;
+  font-family: "Lato", serif;
   font-weight: bold;
   position: absolute;
   color: var(--dracula-green);
@@ -248,7 +249,7 @@ table td {
 
 section {
   font-size: 35px;
-  font-family: "IBM Plex Sans";
+  font-family: "IBM Plex Mono";
   line-height: 1.35;
   letter-spacing: 1.25px;
   padding: 70px;
